@@ -1,0 +1,54 @@
+﻿body {
+    text-align:center;
+    background-color:#F5F5F5;
+}
+.name {
+    font-size:60px;
+}
+.syozoku {
+    margin-top:5px;
+    font-size: 30px;
+}
+hr {
+    height: 5px;
+    background-color: #B30000;
+    width: 60%;
+    border: none;
+    margin-top: 15px;
+}
+.introduce{
+    color:#333333;
+    font-size:30px;
+}
+.introduce b{
+    color:#386641;
+    font-size:50px;
+}
+.kyoku{
+    font-size:25px;
+}
+
+@media only screen and (max-width:960px) {
+    .name {
+        font-size: 15px;
+    }
+
+    .syozoku {
+        font-size: 7.5px;
+    }
+
+    hr {
+        height: 2.5px;
+        width: 80%;
+    }
+    .introduce {
+        font-size: 7.5px;
+    }
+
+        .introduce b {
+            font-size: 12.5px;
+        }
+    .kyoku{
+        font-size:5px;
+    }
+}
